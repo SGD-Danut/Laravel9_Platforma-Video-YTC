@@ -1,0 +1,100 @@
+.image-container {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+  
+.caption {
+    margin-left: 20px;
+}
+  
+.caption h2 {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+    color: #fff;
+    display: flex;
+}
+  
+.caption p {
+    font-size: 14px;
+    margin: 0;
+    color: #aaa;
+}
+  
+img {
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.delete-video-from-history-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Font Awesome 6 Brands';
+  }
+
+.delete-video-from-history-button:hover {
+    color: red;
+}
+
+.viewed-on {
+    padding-top: 30px;
+    font-family: revert;
+    font-weight: bold;
+}
+
+/* Navigatie */
+
+.d-flex {
+    padding: 15px;
+  }
+  
+  .pagination {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .pagination li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .pagination li a, 
+  .pagination li span {
+    color: #818080;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .pagination li.active a {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .pagination li.disabled span,
+  .pagination li.disabled a {
+    color: #999;
+    background-color: #f5f5f5;
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+  
+  .pagination li:first-child span,
+  .pagination li:first-child a {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  .pagination li:last-child span,
+  .pagination li:last-child a {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  
